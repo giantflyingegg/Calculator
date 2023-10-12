@@ -74,7 +74,8 @@ nine.addEventListener('click', () => {
 });
 
 zero.addEventListener('click', () => {
-    display.value += "0";   
+    display.innerHTML += "0";  
+        // console.log("hello");
 });
 
 add.addEventListener('click', () => {
